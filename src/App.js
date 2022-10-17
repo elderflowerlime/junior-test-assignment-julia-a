@@ -1,19 +1,17 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from './components/Navbar.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
  <> 
-      <Router>
+        <Router>
         <Navbar />
         <Routes>
-         {/* <Route path='/' exact element={<Home/>} /> */}
+          <Route path="/" exact element />
         </Routes>
-        {/* <Footer/> */}
-      </Router>
-      
+        </Router>
     </>
   );
 }
