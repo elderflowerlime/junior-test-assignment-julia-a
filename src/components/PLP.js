@@ -1,5 +1,9 @@
 import './PLP.css'
 import React, { Component } from 'react'
+import ProductA from '../resources/photos/ProductA.png'
+import ProductB from '../resources/photos/ProductB.png'
+import ProductC from '../resources/photos/ProductC.png'
+import ProductD from '../resources/photos/ProductD.png'
 
 export default class PLP extends Component {
   render() {
@@ -10,32 +14,32 @@ export default class PLP extends Component {
         </div>
         <div className="product-cards">
             <div className="one-product">
-                <img src="..\resources\photos\Product D.png" alt=""></img>
+                <img src={ProductD} alt=""></img>
                 <p className="product-name">Apolio Running Short</p>
                 <p className="product-price">$50.00</p>
             </div>
             <div className="one-product">
-                <img src="../resources/photos/Product B.png" alt=""></img>
+                <img src={ProductB} alt=""></img>
                 <p className="product-name">Apolio Running Short</p>
                 <p className="product-price">$50.00</p>
             </div>
             <div className="one-product">
-                <img src="../resources/photos/Product B.png" alt=""></img>
+                <img src={ProductC} alt=""></img>
                 <p className="product-name">Apolio Running Short</p>
                 <p className="product-price">$50.00</p>
             </div>
             <div className="one-product">
-                <img src="../resources/photos/Product B.png" alt=""></img>
+                <img src={ProductA} alt=""></img>
                 <p className="product-name">Apolio Running Short</p>
                 <p className="product-price">$50.00</p>
             </div>
             <div className="one-product">
-                <img src="../resources/photos/Product B.png" alt=""></img>
+                <img src={ProductD} alt=""></img>
                 <p className="product-name">Apolio Running Short</p>
                 <p className="product-price">$50.00</p>
             </div>
             <div className="one-product">
-                <img src="../resources/photos/Product B.png" alt=""></img>
+                <img src={ProductC} alt=""></img>
                 <p className="product-name">Apolio Running Short</p>
                 <p className="product-price">$50.00</p>
             </div>
